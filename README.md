@@ -32,7 +32,7 @@ The API serves as the core backend that powers the InternSync platform:
 ## Technology Stack
 
 ### Core Framework
-- **Django 4.2.21** - Python web framework for rapid development
+- **Django >= 4.2.21** - Python web framework for rapid development
 - **Django REST Framework** - RESTful API implementation
 - **PostgreSQL** - Production-grade relational database
 - **JWT Authentication** - Secure token-based authentication
