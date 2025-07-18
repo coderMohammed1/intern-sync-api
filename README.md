@@ -26,7 +26,7 @@ The API serves as the core backend that powers the InternSync platform:
 **File Processing:**
 - PDF resume upload and storage
 - Text extraction from resumes for AI analysis
-- AWS S3 bucket support
+- MINIO S3 bucket support
 - File size validation and format verification
 
 ## Technology Stack
@@ -288,7 +288,7 @@ CORS_ALLOWED_ORIGINS = [
 # File Storage
 CV_STORAGE_PATH = "/path/to/resume/storage"
 
-# AWS S3
+# MINIO S3
 MINIO_PORT=443
 MINIO_USE_SSL=true
 MINIO_BUCKET=mybucket
