@@ -292,8 +292,8 @@ CV_STORAGE_PATH = "/path/to/resume/storage"
 MINIO_PORT=443
 MINIO_USE_SSL=true
 MINIO_BUCKET=mybucket
-MINIO_REGION=is-sa-eastern-1
-MINIO_ENDPOINT=api.s3.dev.is.sa
+MINIO_REGION=is-sa-eastern-1 (change this)
+MINIO_ENDPOINT=api.s3.dev.is.sa (change this)
 MINIO_ACCESS_KEY=CHANGE_TO_YOUR_ACCESS_KEY
 MINIO_SECRET_KEY=CHANGE_TO_YOUR_SECRET_KEY
 ```
