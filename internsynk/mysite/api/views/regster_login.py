@@ -61,7 +61,9 @@ class Login(APIView):
         uname = escape(request.data.get("userName"))
         password = request.data.get("password")
         user = Users.objects.filter(userName=uname).first()
-        
+        if len(password) > 40:
+            return Response({'error': 'Password is too long!'}, status=status.HTTP_400_BAD_REQUEST)
+             
         if user and check_password(password, user.password):
             token = ""
             if user.role == "s":
