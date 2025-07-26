@@ -309,7 +309,7 @@ The API follows Django best practices with clear separation of concerns:
 
 Database migrations track all schema changes, ensuring consistent development and production environments. The PostgreSQL database provides reliable transaction support and efficient querying for the application's needs.
 
-File processing includes multiple PDF parsing libraries to handle various resume formats. The base64 encoding ensures secure file transmission between frontend and backend systems.
+File processing includes multiple PDF parsing libraries to handle various resume formats. The base64 encoding ensures safe file transmission between frontend and backend systems.
 
 ## Authors
 
