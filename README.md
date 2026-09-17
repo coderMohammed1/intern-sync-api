@@ -118,12 +118,10 @@ The API uses a PostgreSQL database with the following core models:
 ### Database Setup
 
 1. Install PostgreSQL and create the database:
-```bash
-python create_database.py
-```
+
 2. rename `mysite/mysite/example.settings.py` to `mysite/mysite/settings.py`
 
-3. 2. rename `mysite/.env.example` to `mysite/.env`
+3. rename `mysite/.env.example` to `mysite/.env`
 
 4. Configure database connection in `mysite/.env`:
 
